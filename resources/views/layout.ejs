@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Exo+2:ital,wght@1,600&family=Kenia&family=Lobster&family=Major+Mono+Display&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Karmic Kuisine</title>
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+                <div id="nav-img">
+                    <img src="img/logo_withoutback.png" alt="">
+                </div>
+
+                <h4><a href="#">Menu</a></h4>
+                <h4><a href="#">offers</a></h4>
+                <h4><a href="/login">SignIn</a></h4>
+                <h4><a href="/about">About</a></h4>
+                <a href="/cart"><i class="ri-shopping-cart-fill"></i></a> 
+        </div>
+        <%- body %>
+        <div id="footer">
+            <div id="footer-con">
+                <div id="where_at" class="last-sec-ele">
+                    <h5>where at ?</h5>
+                    <p>150 Duffy Ave, Hicksville,NY 11081, USA</p>
+                    <p>+91 9315866109</p>
+                    <p>mailharsh0218@gmail.com</p>
+                </div>
+                <div id="work-time" class="last-sec-ele">
+                    <h5>work time</h5>
+                    <p>Monday - Friday --- 09:00 - 23:00</p>
+                    <p>Saturday ---------- 09:00 - 01:00</p>
+                    <p>Sunday ------------ 12:00 - 23:00</p>
+                </div>
+                <div id="subs" class="last-sec-ele">
+                    <h5>Subscribe to our news</h5>
+                    <div id="news">
+                        <input type="text" name="subs_mail" placeholder="Your email">
+                        <button>Submit</button>
+            
+                    </div>
+                </div>
+            </div>
+            <p class="rights">&copy;2023 All Rights Reserved. Development by Harsh Bhardwaj</p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

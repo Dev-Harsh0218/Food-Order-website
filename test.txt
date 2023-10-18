@@ -1,0 +1,1323 @@
+index.ejs
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Exo+2:ital,wght@1,600&family=Kenia&family=Lobster&family=Major+Mono+Display&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Karmic Kuisine</title>
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+                <div id="nav-img">
+                    <img src="img/logo_withoutback.png" alt="">
+                </div>
+
+                <h4><a href="#">Menu</a></h4>
+                <h4><a href="#">offers</a></h4>
+                <h4><a href="#">SignUp</a></h4>
+                <h4><a href="#">About</a></h4>
+                <i class="ri-shopping-cart-fill"><a href="#"></a></i>
+        </div>
+        <div id="page1">
+            <div id="page1-top">
+                <img src="img/middle_logo1.png" alt="">
+            </div>
+            <div id="background">
+                <img src="img/backtest3.jpg" alt="">
+            </div>
+            <div id="page1-mid">
+                <h1>High Quality Meals</h1>
+                <h6>Join us on a gastronomic adventure where every dish tells a story...</h6>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="pt1">
+                <div id="pt1-left">
+                    <h1>Japanese</h1>
+                    <h4>Ramen & Sushi</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sit corrupti dolore perspiciatis repellendus unde ab quisquam id fugiat ratione cumque nisi, velit aliquid sunt ex nulla corporis ad beatae reiciendis deleniti! Vitae veniam accusamus dolorum cum pariatur earum illum, debitis id voluptate, laudantium vero maxime blanditiis alias minima ratione.
+                    </p>
+                </div>
+                <div id="pt1-right">
+                    <img src="img/page2pic1new1.jpg" alt="">
+                </div>
+            </div>
+            <div id="pt2">
+                <div id="pt2-left">
+                    <img src="img/page2pic2new.jpg" alt="">
+                </div>
+                <div id="pt2-right">
+                    <h1>Italian</h1>
+                    <h4>Lasgana & Pasta</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur fugit quis consequatur, aspernatur ipsam illum dicta culpa recusandae debitis commodi tempore libero, quibusdam deleniti eum blanditiis dolore vero totam explicabo, nihil provident velit. Ratione doloribus laborum enim reprehenderit vitae. Debitis nemo magnam culpa rem ad nobis, hic earum corporis voluptatem.</p>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+             <div id="page3-p1">
+                <div id="p3-p1-img1">
+                    <img src="img/pic32.jpg" alt="">
+                </div>
+                <div id="p3-p1-text">
+                    <h4>Restaurant & Cafe</h4>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis dolorum quibusdam quaerat unde velit quo earum illo! Unde ad fugit dignissimos id nulla possimus adipisci minima recusandae? Laudantium, ex id.
+                    </p>
+                </div>
+                <div id="p3-p1-img1">
+                    <img src="img/pic33.jpg" alt="">
+                </div>
+            </div>
+            <div id="page3-pt2">
+                <div id="page3-pt2-p1">
+                    <h1>The Chefs</h1>
+                    <div class="page3-line"></div>
+                </div>
+                <div id="page3-pt2-p2">
+                    <div class="chefs">
+                        <div id="chef1"><img src="img/alejandro.jpg" alt=""></div>
+                        <h4>Alejandro Reyes</h4>
+                        <div class="chef_line"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio accusantium saepe pariatur delectus corrupti? Tenetur debitis sit nam consectetur totam. Tenetur enim facere similique corporis at provident numquam, nam quasi voluptas odit expedita suscipit quas</p>
+                    </div>
+                    <div class="chefs">
+                        <div id="chef1"><img src="img/chin_chow_wui.jpg" alt=""></div>
+                        <h4>Chin Chow Wui</h4>
+                        <div class="chef_line" id="line"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio accusantium saepe pariatur delectus corrupti? Tenetur debitis sit nam consectetur totam. Tenetur enim facere similique corporis at provident numquam, nam quasi voluptas odit expedita suscipit quas</p>
+                    </div>
+                    <div class="chefs">
+                        <div id="chef1"><img src="img/manoj.jpg" alt=""></div>
+                        <h4>Manoj Patel</h4>
+                        <div class="chef_line" id="line"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio accusantium saepe pariatur delectus corrupti? Tenetur debitis sit nam consectetur totam. Tenetur enim facere similique corporis at provident numquam, nam quasi voluptas odit expedita suscipit quas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div id="page4-Banner">
+                <div id="ban-ele1">
+                    <h1>8330</h1>
+                    <h6>Events Served</h6>
+                </div>
+                <div id="ban-ele1">
+                    <h1>248</h1>
+                    <h6>loremm</h6>
+                </div>
+                <div id="ban-ele1">
+                    <h1>852</h1>
+                    <h6>stores</h6>
+                </div>
+                <div id="ban-ele1">
+                    <h1>615</h1>
+                    <h6>Lorem,ipsum.</h6>
+                </div>
+            </div>
+            <div id="page4-pt2">
+                <div id="container">
+                    <div id="con-p1">
+                        <h1>Contact Us</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit tempore laudantium atque eum ex iste sunt, cupiditate voluptatum ut deleniti, reiciendis, impedit doloribus tempora facere illum inventore distinctio incidunt dicta!</p>
+                    </div>
+                    <div id="con-p2">
+                        <h2>book a table</h2>
+                        <div id="main_form">
+                            <div class="form_ele">
+                                <input type="text" id="fname" class="inputs" name="fname" placeholder="Name">
+                            </div>
+                            <div class="form_ele">
+                                <input type="text" class="inputs" id="date_picker" placeholder="MM/DD/YYYY">
+                            </div>
+                            <div class="form_ele">
+                                <input type="text" class="inputs" id="mail_phone" placeholder="Email/Phone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page5">
+            <div id="page5-p1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.3094390088631!2d77.37179200853964!3d28.683342068007413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfa875bc9e505%3A0xbc1fee6b0a78cba3!2sHARIOM%20STORE!5e0!3m2!1sen!2sin!4v1696271264575!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div> 
+        <div id="footer">
+            <div id="footer-con">
+                <div id="where_at" class="last-sec-ele">
+                    <h5>where at ?</h5>
+                    <p>150 Duffy Ave, Hicksville,NY 11081, USA</p>
+                    <p>+91 9315866109</p>
+                    <p>mailharsh0218@gmail.com</p>
+                </div>
+                <div id="work-time" class="last-sec-ele">
+                    <h5>work time</h5>
+                    <p>Monday - Friday --- 09:00 - 23:00</p>
+                    <p>Saturday ---------- 09:00 - 01:00</p>
+                    <p>Sunday ------------ 12:00 - 23:00</p>
+                </div>
+                <div id="subs" class="last-sec-ele">
+                    <h5>Subscribe to our news</h5>
+                    <div id="news">
+                        <input type="text" name="subs_mail" placeholder="Your email">
+                        <button>Submit</button>
+            
+                    </div>
+                </div>
+            </div>
+            <p class="rights">&copy;2023 All Rights Reserved. Development by Harsh Bhardwaj</p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+about.ejs
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Exo+2:ital,wght@1,600&family=Kenia&family=Lobster&family=Major+Mono+Display&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Karmic Kuisine - About</title>
+</head>
+<body>
+    <div id="ab-main">
+        <div id="nav">
+                <div id="nav-img">
+                    <img src="img/logo_withoutback.png" alt="">
+                </div>
+                <h4><a href="#">Menu</a></h4>
+                <h4><a href="#">offers</a></h4>
+                <h4><a href="#">SignUp</a></h4>
+                <h4><a href="#">About</a></h4>
+                <i class="ri-shopping-cart-fill"><a href="#"></a></i>
+        </div>
+        <div id="ab-page1">
+            <div id="ab-p1-mid">
+                <h1>our story</h1>
+            </div>
+            <img src="img/back7.jpg" alt="">
+        </div>
+        <div id="ab-page2">
+            <div id="ab-p2-pt1">
+                <h2>Meet the partners</h2>
+                <div id="ab-p2-pt1-para">
+                    <p>This piece of Development was made with Love and losts of sleepless nights. I would like to give thanks to all my partners in crime i.e my family, pratik and also Shiva for his blessings. I hope this piece of work meets your expectations with par... </p>
+                </div>
+            </div>
+            <div id="ab-p2-pt2">
+                <div id="ab-p2-pt2-img">
+                    <img src="img/founder.jpg" alt="">
+                </div>
+                <div id="ab-p2-pt2-desc">
+                    <h1>The Founder</h1>
+                    <h4>" दु:खेष्वनुद्विग्नमना: सुखेषु विगतस्पृह: |</h4>
+                    <h4>वीतरागभयक्रोध: स्थितधीर्मुनिरुच्यते || 56|| "</h4>
+                    <h6>Bhagvat Gita</h6>
+                </div>
+            </div>
+
+             <!-- <h2>Meet the partners</h2>
+             <div id="p23-partners-img">
+                <img src="img/founder.jpg" alt="">
+                <h6>Harsh Bhardwaj The Founder</h6>
+             </div> -->
+        </div>
+        <div id="ab-page3">
+            <div id="ab-p3-pt1">
+                <h1>The Origin Story</h1>
+            </div>
+            <div id="ab-p3-pt2">
+                <div id="ab-p3-pt2-orimg">
+                    <img src="img/origin_story.jpg" alt="">
+                </div>
+                <div id="ab-p3-pt2-oritext">
+                    <p>Born in Ghazibbad, Uttar Pradesh but was raised in an small village named Pillaw in Etah, I come from a typical middle class indian family and Yess I m a developer now previously i was working as backend developer in Gaura Softwares and right now i am doing cool freelance stuff and if you wanna connect you will find my socials somewhere here so enough advertising .Through the course of my journey till today,I learned that happiness doesn't require money or materialistic things i requires a purpose and you all know men are happy when they are builidng something so with these words I give you The Founder Harsh Bhardwaj i.e me(the cute one the picture)...</p>
+                </div>
+            </div>
+        </div>
+        <div id="ab-page4">
+            <div id="ab-p4-pt1">
+                <h1>The Idea</h1>
+            </div>
+            <div id="ab-p4-pt2">
+                <div id="ab-p4-pt2-img">
+                    <img src="img/ab-idea.jpg" alt="">
+                </div>
+                <div id="ab-p4-pt2-text">
+                    <h1>inspiration</h1>
+                    <p>The idea was given by my childhood friend Harsh Mahori, he is a developer too and we were sitting in a park and talking about the placements and i said i needed to do some projects and cause i didn't have any of my own just the one where i was previously working at So he gave the idea of Karmic Kuisine a restaurant he wanted to open someday hence to fulfill his dream i created this website for him and he will soon work on the physical Restaurant. <span>Stay Tuned.</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer-con">
+                <div id="where_at" class="last-sec-ele">
+                    <h5>where at ?</h5>
+                    <p>150 Duffy Ave, Hicksville,NY 11081, USA</p>
+                    <p>+91 9315866109</p>
+                    <p>mailharsh0218@gmail.com</p>
+                </div>
+                <div id="work-time" class="last-sec-ele">
+                    <h5>work time</h5>
+                    <p>Monday - Friday --- 09:00 - 23:00</p>
+                    <p>Saturday ---------- 09:00 - 01:00</p>
+                    <p>Sunday ------------ 12:00 - 23:00</p>
+                </div>
+                <div id="subs" class="last-sec-ele">
+                    <h5>Subscribe to our news</h5>
+                    <div id="news">
+                        <input type="text" name="subs_mail" placeholder="Your email">
+                        <button>Submit</button>
+            
+                    </div>
+                </div>
+            </div>
+            <p class="rights">&copy;2023 All Rights Reserved. Development by Harsh Bhardwaj</p>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+app.css
+
+
+@import "./variable";   
+
+// default to all pages
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    color : $secondary;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #191a1d;
+}
+#main{
+    height:100vh;
+    width:100%;
+    background-color:#191a1d;
+}
+// landing page --- 1st page
+#page1{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    height: 100%;
+    width: 100%;
+}
+#background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    mix-blend-mode:color-dodge;
+    // mix-blend-mode:color-dodge;
+    // filter: blur(4px) grayscale(60%);
+}
+
+#nav{
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    height: 6%;
+    width:35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: $primary;
+    // background-color: #191a1d;
+    border-radius: 15px;
+    gap: 8%;
+    padding: 0 3%;
+}
+#nav h4{
+    text-transform: capitalize;
+    font-size: 1.2em;
+    &:hover{
+        cursor: pointer;
+        font-size:1.4rem;
+        color:#B07300;
+    }
+}
+#nav-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 90%;
+    margin-right: 5%;
+}
+#nav img{
+    width: 50px;
+    height: 50px;
+    padding: 2px 2px;
+}
+
+#nav i{
+    font-size: 1.2rem;
+    &:hover{
+        cursor: pointer;
+        font-size:1.5rem;
+        color:#B07300;
+    }
+}
+#page1-top{
+    margin-top: 2%;
+    padding: 2% 4%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 12%;
+    width: 40%;
+    z-index: 999;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#page1-mid{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#page1-mid h1{
+    font-size: 10rem;
+    font-family: 'Croissant One', cursive;  
+    color: E2E8EE;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#page1-mid h6{
+    font-size: 2rem;
+}
+
+#page2{
+    margin-top:4%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10%;
+}
+#pt1{
+    padding: 0 2%;
+    width: 100%;
+    height: 45%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#pt1-left{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: -10%;
+}
+#pt1-left h1{
+    font-size:7rem;
+    text-transform: uppercase;
+    font-family: 'Croissant One', cursive;
+}
+#pt1-left h4{
+    font-size:3rem;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+}
+#pt1-left p{
+    font-weight: 100;
+    margin-top:.7rem;
+    font-size: 1.4rem;
+}
+#pt1-right{
+    padding: 1% 0;
+    width: 47%;
+    height: 100%;
+}
+#pt1-right img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+#pt2{
+    padding: 0 2%;
+    width: 100%;
+    height: 55%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pt2-left{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 47%;
+    height: 100%;
+}
+#pt2-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#pt2-right{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: -10%;
+}
+
+#pt2-right h1{
+    font-size:7rem;
+    text-transform: uppercase;
+    font-family: 'Croissant One', cursive;
+}
+
+#pt2-right h4{
+    font-size:3rem;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#pt2-right p{
+    font-weight: 100;
+    margin-top:.7rem;
+    font-size: 1.6rem;
+}
+
+#page3{
+    margin-top: 8%;
+    width: 100%;
+    height: 125%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#page3-p1{
+    padding: 0 2%;
+    width: 100%;
+    height: 27%;
+    display:flex;
+}
+#p3-p1-img1{
+    width: 30.6%;
+    height: 100%;
+}
+
+#p3-p1-img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#p3-p1-text{
+    height: 100%;
+    width: 40%;
+    padding:2% 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10%;
+}
+
+#p3-p1-text h4{
+    font-family: 'Croissant One', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.line{
+    width: 20%;
+    height: 2%; 
+    background-color: $secondary;
+}
+
+#p3-p1-text p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding:0 14%;
+}
+
+#page3-pt2{
+
+    padding: 0 2%;
+    margin-top: 5%;
+    width: 100%;
+    height: 95%;
+}
+#page3-pt2-p1 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#page3-pt2-p1 h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Croissant One', cursive;
+    letter-spacing:10%;
+}
+.page3-line{
+    margin-top: 1%;
+    width: 10%;
+    height: 3%;
+    background-color: $secondary;
+}
+#page3-pt2-p2{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chefs{
+    height: 100%;
+    width:31.8%;
+    display: flex;
+    flex-direction: column;
+}
+.chefs h4{
+    margin-top:2em;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.chef_line{
+    margin-top: 2%;
+    height: .5%;
+    width: 25%;
+    background-color: $secondary;
+}
+.chefs p{
+    margin-top: 2%;
+    font-size: 1.2 rem;
+}
+
+#page4{
+    padding: 0 2%;
+    margin-top:5%;
+    width: 100%;
+    height: 65%;
+}
+#page4-Banner{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #B07300;
+}
+#ban-ele1{
+    background-color: #B07300;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ban-ele1 h1{
+    font-size: 2.8rem;
+}
+
+#ban-ele1 h6{
+    font-size:1.2rem;
+    text-transform: uppercase;
+}
+
+#page4-pt2{
+    width:100%;
+    height: 75%;
+    background-color: #191a1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 5px #B07300;
+}
+#container{
+    width: 90%;
+    height: 85%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#con-p1{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#con-p1 h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Croissant One', cursive;
+}
+#con-p1 p{
+    margin-top:1.2rem;
+    text-align: center;
+    padding:0 5rem;
+}
+#con-p2{
+    width:50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#con-p2 h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Croissant One', cursive;
+    
+}
+#main_form
+{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form_ele{
+    width: 90%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs{
+    height: 40%;
+    width: 90%;
+    color: white;
+    background-color: #191a1d;
+    border-bottom:solid 5px #B07300;
+}
+
+#page5{
+    padding: 0 2%;
+    margin-top:4%;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#page5-p1{
+    width:100%;
+    height:100%;
+    background-color: #464038;
+}
+#page5-p1 iframe{
+    height:100%;
+    width:100%;
+}
+
+#footer{
+    margin-top: 2%;
+    width:100%;
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-con{
+    width: 100%;
+    height: 65%;
+    background-color:$primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-sec-ele{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.last-sec-ele h5{
+    color: burlywood;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.last-sec-ele p{
+    color: #efdcc3;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+#news{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 30%;
+    gap:5%;
+    margin-left: 10%;
+}
+
+#news input{
+    background-color: #efdcc3;
+    color: black;
+    font-size: 1.5rem;
+    margin-right:2%;
+}
+
+#news button{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background-color: #B07300;
+    padding: 0 10px;
+    border-radius: 5%;
+}
+
+.rights{
+    color:#efdcc3;
+    margin-top: 1%;
+    font-size: 1.2rem;
+}
+
+
+
+//about_page
+
+#ab-main{
+    height:100vh;
+    width:100%;
+    background-color:#191a1d;
+}
+
+#ab-page1{
+    height: 50%;
+    width:100%;
+    margin-top: 2em;
+}
+
+
+#ab-page1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode:color-dodge;
+}
+
+#ab-p1-mid{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+}
+#ab-p1-mid h1{
+    color:burlywood;
+    font-size: 5.5rem;
+    font-weight:900;
+    text-transform: uppercase;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#ab-page2{
+    margin: 0 3%;
+    width: 94%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap:5%;
+}
+
+#ab-p2-pt1{
+    margin-top: 3%;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    justify-content: flex-start;
+    border-bottom: 1px solid burlywood ;
+}
+#ab-p2-pt1 h2{
+    text-transform: uppercase;
+    color:burlywood;
+    font-size: 6rem;
+    font-family: 'Major Mono Display', monospace;
+    letter-spacing: -10px;
+}
+#ab-p2-pt1-para{
+    width: 50%;
+    height: 40%;
+}
+
+#ab-p2-pt1 p{
+    color:#efdcc3;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#ab-p2-pt2{
+    width:100%;
+    height:50%;
+    display: flex;
+    gap:1%;
+    align-items: center;
+    justify-content: flex-start;
+}
+#ab-p2-pt2-img{
+    width: 45%;
+    height: 100%;
+    background-color:burlywood;
+}
+
+#ab-p2-pt2-img img{
+    border:none;
+    background-color:#efdcc3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode:multiply;
+    filter: blur(1px);
+}
+#ab-p2-pt2-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+#ab-p2-pt2-desc h1{
+    letter-spacing: -5px;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 5rem;
+    color:burlywood;
+    text-transform:capitalize;
+    margin-bottom:10%;
+}
+#ab-p2-pt2-desc h4{
+    font-size: 3rem;
+    color: #efdcc3;
+}
+#ab-p2-pt2-desc h6{
+    margin-top:2%;
+    font-size: 1.2rem;
+    color: #efdcc3;
+}
+
+#ab-page3{
+    margin: 0 3%;
+    width:94%;
+    height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+#ab-p3-pt1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid burlywood ;
+}
+#ab-p3-pt1 h1{
+    font-size:5.4rem;
+    text-transform:uppercase;
+    font-family: 'Major Mono Display', monospace;
+    color: burlywood;
+}
+#ab-p3-pt2{
+    width: 100%;
+    height: 110%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#ab-p3-pt2-orimg{
+    height: 80%;
+    width: 100%; 
+    background-color: rgb(180, 135, 77);
+}
+
+#ab-p3-pt2-orimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode:multiply;
+    filter: blur(1px);
+}
+
+#ab-p3-pt2-oritext{
+    padding:0.5% 0;
+    width: 100%;
+    height: 18%;
+
+}
+
+#ab-p3-pt2-oritext p{
+    color:#efdcc3;
+    text-align: left;
+    font-size: 1.9rem;
+}
+
+#ab-page4{
+    margin-top: 2%;
+    width: 94%;
+    height: 60%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: flex-start;
+}
+
+#ab-p4-pt1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid burlywood ;
+}
+
+#ab-p4-pt1 h1{
+    color:burlywood;
+    font-size: 5.4rem;
+    text-transform: uppercase;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#ab-p4-pt2{
+    padding: 4% 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#ab-p4-pt2-img{
+    width: 40%;
+    height: 100%;
+    background-color: burlywood;
+}
+#ab-p4-pt2-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+#ab-p4-pt2-text{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+#ab-p4-pt2-text h1{
+    color: burlywood;
+    text-transform: uppercase;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3rem;
+}
+
+#ab-p4-pt2-text p{
+    color: #efdcc3;
+    margin-top: 5%;
+    text-align: left;
+    padding: 0 5%;
+    font-size: 1.4rem;
+}
+#ab-p4-pt2-text span{
+    color:burlywood;
+}
+
+
+// font-family: 'Major Mono Display', monospace;
+// font-family: 'Croissant One', cursive;
+// font-family: 'Kenia', cursive;
+// font-family: 'Lobster', cursive;
+// font-family: 'Skranji', cursive;
+// background-color: rgb(104, 65, 65);
+// background-color: rgb(251, 181, 181);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="order-sum-con">
+    <div id="items-sum">
+        <div id="i-sum-head">
+            <i class="ri-shopping-cart-2-line"></i>
+            <h1>order summary</h1>
+        </div>
+        <div? id="i-sum-items">
+            <div id="cart-element-cont">
+                <div id="item-img">
+                    <img src="img/pi_item.png" alt="">
+                </div>
+                <div id="order-details">
+                    <h1 id="item-name">Marinana</h1>
+                    <h6 id="size">Medium</h6>
+                </div>
+                <div id="qun-price">
+                    <span>1pcs</span>
+                    <span>₹300</span>
+                </div>
+                <i class="ri-delete-bin-6-line"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+#order-sum-con{
+    width:96%;
+    margin:2% 2%;
+}
+
+#items-sum{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #efdcc3;
+}
+
+#i-sum-head{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 30%;
+    height: 10%;
+    background-color: #191a1d;
+    gap:3%;
+    margin: 2% 2%;
+}
+
+#i-sum-head i{
+    font-size: 2rem;
+    color: burlywood;
+}
+
+#i-sum-head h1{
+    color: burlywood;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+#i-sum-items{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    height: 30%;
+    background-color: black;
+}
+#cart-element-cont{
+
+}
+
+
+
+#item-img{
+    margin:0 1%;
+    width: 20%;
+    height: 90%;
+}
+#item-img img{
+    padding: 2% 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#order-details{
+    margin-left: 10px;
+    width: 10%;
+    height: 50%;
+}
+#order-details h1{
+    font-size: 1.5rem;
+    color: burlywood;
+}
+#order-details h6{
+    font-size: 0.9rem;
+}
+#qun-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 2
+    margin-left: 10%;
+}
+#qun-price span{
+    font-size: 1.5rem;
+}
+.ri-delete-bin-6-line{
+    margin-left: 5%;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
