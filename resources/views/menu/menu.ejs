@@ -1,1 +1,38 @@
-<h1>This is menuuuuuu</h1>
+<div id="menu-head">
+    <div id="menu-head-text">
+        <h1>Explore The Deepest Of our Menu..</h1>
+    </div>
+    <img src="img/back7.jpg" alt="">
+</div>
+<!-- varibles from backend        category -- for_category   items_assoc -- for_items_category_particular-->
+<div id="menu-con">
+    <% category.forEach(cate =>{ %>
+    <% let item_count=0;%>
+    <div class="menu-cate-ele">
+        <div class="m-ele-head">
+            <h1><%= cate%></h1>
+        </div>
+        <div class="m-ele-item-con">
+            <% for(let i=0;i<3 ;i++){ %>
+                <div class="m-ele-item-subcon">
+                    <% for(let j=0;j<4 && item_count < items_assoc[cate].length;j++,item_count++){ %>
+                        <div id="m-item-ele">
+                            <div id="m-item">
+                                <h6><%= items_assoc[cate][item_count].i_name %></h6>
+                            </div>
+                            <div id="item_price">
+                                <span>₹<%= items_assoc[cate][item_count].i_price%></span>
+                            </div>
+                            <i class="ri-add-box-fill add_btn" id="add_item_cart" data-item="<%= JSON.stringify(items_assoc[cate][item_count    ])%>"></i>
+                        </div>
+                        <%}%>
+                    </div>
+                <%}%>
+            </div>
+            <div id="m-ele-footer">
+                <i class="ri-arrow-left-circle-line"></i>
+                <i class="ri-arrow-right-circle-line"></i>
+            </div>
+        </div>
+    <% })%>
+    </div>

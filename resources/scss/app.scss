@@ -1,4 +1,4 @@
-@import "./variable";   
+    @import "./variable";   
 
 // default to all pages
 *{
@@ -534,44 +534,64 @@ html,body{
 
 
 //about_page
-
-#ab-main{
-    height:100vh;
-    width:100%;
-    background-color:#191a1d;
+// #ab-page1{
+//     height:40vh;
+//     width:100%;
+//     margin-top: 2em;
+// }
+// #ab-page1 img{
+//     height: 100%;
+//     width: 100%;
+//     object-fit: cover;
+//     mix-blend-mode:color-dodge;
+// }
+// #ab-p1-mid{
+//     position: absolute;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+// #ab-p1-mid h1{
+//     color:burlywood;
+//     font-size: 5.5rem;
+//     font-weight:900;
+//     text-transform: uppercase;
+//     font-family: 'Major Mono Display', monospace;
+// }
+#ab-head{
+    height: 40vh;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-#ab-page1{
-    height: 50%;
-    width:100%;
-    margin-top: 2em;
-}
-
-
-#ab-page1 img{
+#ab-head img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    mix-blend-mode:color-dodge;
+    mix-blend-mode: color-dodge;
 }
-
-#ab-p1-mid{
+#ab-head-text{
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 50%;
 }
-#ab-p1-mid h1{
+#ab-head-text h1{
+    letter-spacing: -2px;
     color:burlywood;
-    font-size: 5.5rem;
-    font-weight:900;
     text-transform: uppercase;
+    font-size: 4rem;
     font-family: 'Major Mono Display', monospace;
 }
 
+
 #ab-page2{
-    margin: 0 3%;
+    margin: 2% 3%;
     width: 94%;
     height: 100%;
     display: flex;
@@ -595,11 +615,12 @@ html,body{
 #ab-p2-pt1 h2{
     text-transform: uppercase;
     color:burlywood;
-    font-size: 6rem;
+    font-size: 5.8rem;
     font-family: 'Major Mono Display', monospace;
     letter-spacing: -10px;
 }
 #ab-p2-pt1-para{
+    padding: 2% 0;
     width: 50%;
     height: 40%;
 }
@@ -611,8 +632,8 @@ html,body{
 }
 
 #ab-p2-pt2{
+    margin-top:3%;
     width:100%;
-    height:50%;
     display: flex;
     gap:1%;
     align-items: center;
@@ -620,7 +641,7 @@ html,body{
 }
 #ab-p2-pt2-img{
     width: 45%;
-    height: 100%;
+    height: 70vh;
     background-color:burlywood;
 }
 
@@ -630,6 +651,7 @@ html,body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     mix-blend-mode:multiply;
     filter: blur(1px);
 }
@@ -658,10 +680,12 @@ html,body{
     color: #efdcc3;
 }
 
+// 
 #ab-page3{
-    margin: 0 3%;
+    background-color: #B07300;
+    margin: 2% 3%;
     width:94%;
-    height: 150%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -669,7 +693,6 @@ html,body{
 }
 #ab-p3-pt1{
     width: 100%;
-    height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -683,7 +706,6 @@ html,body{
 }
 #ab-p3-pt2{
     width: 100%;
-    height: 110%;
     margin-top: 1%;
     display: flex;
     flex-direction: column;
@@ -991,7 +1013,11 @@ html,body{
     width: 80%;
 }
 #coupon-input input{
-    font-size: 2rem;
+    color:#efdcc3;
+    border-bottom: 2px solid burlywood;
+    outline: none;
+    background: #191a1d;
+    font-size: 1.8rem;
 }
 
 #aply-cupon{
@@ -1002,6 +1028,7 @@ html,body{
     margin-left: 1rem;
     border-radius: 0.3rem;
     text-transform: capitalize;
+    
 }
 #total_amount{
     display: flex;
@@ -1219,7 +1246,146 @@ html,body{
     width: 96%;
     margin: 2% 2%;
 }
+
+
+
+
+
+
+// menu page
+
+
+
+#menu-head{
+    height: 40vh;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#menu-head img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode:color-dodge;
+}
+#menu-head-text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 50%;
+}
+#menu-head-text h1{
+    letter-spacing: -2px;
+    color:burlywood;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Major Mono Display', monospace;
+}
+
+#menu-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 5vh;
+    margin: 5% 2%;
+    width: 96%;
+}
+
+.menu-cate-ele{
+    width: 100%;
+    border-bottom: 2px solid burlywood;
+}
+.m-ele-head{
+    border-bottom: 1px solid burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+
+.m-ele-head h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 3rem;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.m-ele-item-con{
+    margin: 1% 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 65%;
+}
+
+.m-ele-item-subcon{
+    display: flex;
+    gap:2vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 33%;
+    height: 100%;
+}
+
+#m-item-ele{
+    color: #efdcc3;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    gap:5%;
+}
+#m-item-ele i{
+    color: burlywood;
+}
+
+#m-item{
+    width: 65%;
+}
+#m-item h6{
+    margin-left:2% ;
+    font-size: 2.2rem;
+    color: #efdcc3;
+}
+#item_price{
+    color:#efdcc3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+#m-ele-footer{
+    font-size:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1%;
+    width: 100%;
+    height: 10%;
+}
+#m-ele-footer i{
+    color: burlywood;
+}
+
+#add_item_cart{
+    &:hover{
+        cursor: pointer;
+    }
+}
 // background-color: #36395A;
+// font-family: 'Oswald', sans-serif;
 // font-family: 'Oswald', sans-serif;
 
 // font-family: 'Major Mono Display', monospace;
